@@ -1,0 +1,43 @@
+
+.desktop-only {
+    display: none
+}
+.card-wrapper {
+    width: 360px;
+    border-bottom: 3px solid #999999;
+    justify-content: left;
+    padding: 16.5px 0 16.5px 0;
+
+}
+.advantages-card {
+    width: 360px;
+}
+.text {
+    &_upper{
+        position: relative;
+        width: 280px;
+        margin: 0 0 0 20px;
+        justify-self: center;
+
+        text-align: left;
+        text-wrap: wrap;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.78px;
+    }
+}
+.button {
+    position: relative;
+    width: 25px;
+    margin: auto 0 auto 15px;
+    border-radius: 100%;
+    border-width: 0;
+    background-color: #212121;
+    :active {
+        opacity: 50%;
+    }
+    &__image{
+        width: 25px;
+        height: 25px;
+    }
+}
