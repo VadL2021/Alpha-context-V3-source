@@ -1,0 +1,49 @@
+.intro{
+    width: 360px;
+    @media (orientation:landscape) {
+        width: 100%;
+    }
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-image: url(./intro-mobile.webp);
+    @media (orientation:landscape) {
+        background-image: url(./intro-mobile-landscape.webp);
+        background-position: 50%;
+    }
+    background-repeat: no-repeat;
+}
+.__intro-wrapper {
+    width: 100%;
+    margin: 271px 0 0 0;
+    flex-direction: column;
+}
+.intro__text {
+    margin: 15px 0 0 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+}
+.button {
+    width: 200px;
+    height: 40px;
+    margin: 35px auto 0 auto;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.intro__title {
+    width: 100%;
+    
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Ghotam Pro;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px; 
+}
+.text {
+    position: relative;
+}

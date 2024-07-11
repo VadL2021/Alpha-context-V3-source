@@ -1,0 +1,71 @@
+.intro{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.__backround-image{
+    position: relative;
+    width: 100%;
+
+
+    /*
+    Картинка:
+    > 1440px -> по %
+    400px < 1440px по макету ровно, с вычисляемым сдвигом слева-направо
+    > 400px по макету ровно, с вычисляемым сдвигом слева-направо, но иначе
+    чтобы влезли девушка и парень
+    Остальное:
+    > 1440px - > по %
+    400px < 1440px по макету ровно, если не влезает - адаптировать
+    > 400px - ровно по макету
+    Остальной контент
+
+    ПОКА ЕЩЕ НЕ РЕШИЛ
+    НО ЛУЧШЕ ПО ПИКСЕЛЯМ ИЗ ЗАДАНИЯ
+    */
+
+    @media (max-width: 1440px)  {
+        margin-top: -174px;
+        min-width: 1440px;
+        min-height: 960;
+        left: calc(-720px + 50%);
+    } 
+    @media  (max-width: 400px){ //Окно браузера не реагирует на значения ниже 400, даже на 360
+        height:540px;//top: -40*
+        left: calc(-825px + 50%);
+    }
+}
+.__intro-wrapper {
+    position: absolute;
+    top: 345px;
+    width: 100%;
+}
+.title {
+    position: relative;
+}
+.intro__text {
+    margin: 20px 0 0 0;
+}
+.button {
+    position: absolute;
+    margin: 0 auto 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 219px;
+}
+.intro__title {
+    width: 100%;
+    
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Ghotam Pro;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 66.88px;  
+}
+.text {
+    position: relative;
+}

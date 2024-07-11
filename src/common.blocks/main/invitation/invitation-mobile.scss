@@ -1,0 +1,66 @@
+.invitation {
+    width: 360px;
+    @media (orientation:landscape) {
+        width: 100%;
+    }
+    height: 567px;
+    background-position-y: center;
+    background-color: #212121;
+    background-image: url(./2.webp);
+    background-repeat: no-repeat;
+    background-position: 50% 67%;
+    background-size: auto;
+    overflow: auto;
+}
+.invitation-wrapper {
+    margin: 45px auto 0 auto;
+    width: 360px;
+    height: 135px;
+    flex-direction: column;
+    gap: 12px;
+}
+.title {
+    width: 320px;
+    height: 159px;
+    margin: 0 auto 0 auto;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.form-link-wrapper {
+    flex-direction: column;
+    margin: 164px auto 0 auto;
+    width: 313px;
+    height: 188px;
+    border-radius: 20px;
+    border: 3px;
+
+    box-shadow: 0px 4px 4px 0px #00000040;
+    box-shadow: 0px 0px 10px 0px #4FB756B2;
+    background: #000000B2;
+}
+.text {
+    width: 260px;
+    height: 88px;
+    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 50px auto auto auto;
+    text-align: left;
+    
+}
+.button{
+    width: 260px;
+    height: 40px;
+    margin: 20px auto 50px auto;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+}

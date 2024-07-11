@@ -1,0 +1,9 @@
+.main{
+    width: 360px;
+    @media (orientation:landscape) {
+        width: 100%;
+    }
+    //test:
+    min-height: 100vh;
+    // background-color: black;
+}

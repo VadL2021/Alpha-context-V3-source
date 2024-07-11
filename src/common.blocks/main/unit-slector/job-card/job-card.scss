@@ -1,0 +1,50 @@
+.mobile-only {
+    display: none;
+}
+.card-item {
+    width: 742px;
+    height: 160px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+    border: 3px solid #999999
+
+}
+.card-line {
+    width: 600px;
+    height: 40px;
+    justify-content: left;
+}
+.card__image {
+    width: 40px;
+    height: 40px;
+}
+.card__text {
+    &_type_salary {
+        margin: auto 0 auto 10px;
+        height: 30px;
+        text-align: left;
+        color: #21A038;
+    }
+    &_type_position {
+        margin: auto 0 auto 15px;
+        height: 30px;
+        text-align: left;
+    }
+}
+.card__button {
+    position: absolute;
+    right:45px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-width: 0;
+    background-color: #212121;
+    :active {
+        opacity: 50%;
+    }
+    .card__image{
+        background:url(./3.svg) no-repeat;
+        background-size: 100%;
+    }
+}
