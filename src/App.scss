@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Ghotam Pro;
+    src: url(assets/gothampro.ttf);
+}
+#App{
+/* 
+    Это единственный селектор по идентификатору во всей верстке
+    Добавил его чтобы footer к низу страницы прижать
+    Есть еще 1 селектор по тегу - для того же
+    Остальное - строго по БЭМ
+*/
+    height: 100%;
+    display: flex;
+    gap:0;
+    flex-direction: column;
+
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 66.88px;
+    text-align: left;
+}
+.footer{
+    margin-top: auto;
+}
