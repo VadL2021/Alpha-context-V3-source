@@ -1,0 +1,76 @@
+.desktop-only {
+    display: none;
+}
+.header {
+    width: 360px;
+    @media (orientation:landscape) {
+        width: 100%;
+    }
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: #111311;
+}
+.settings {
+    width: 85px;
+    height: 30px;
+    margin: 5px auto 5px 10px;
+    left: 0;
+    background-image: url(./2-m.webp);
+    background-color: #111311;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    border: none;
+    &:active {
+        opacity: 60%;
+    }
+}
+.logo {
+    width: 59px;
+    height: 30px;
+    margin: 5px auto 0 auto;
+}
+.navigation-link {
+    width: 61px;
+    height: 50px;
+    margin-top: 10px;
+
+    font-family: Ghotam Pro;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    text-decoration : none;
+    color: #FFFFFF;
+}
+.links-wrapper {
+    margin: 0 auto 0 auto;
+    gap: 33px;
+}
+.contacts-wrapper {
+    width: 85px;
+    height: 30px;
+    margin: 5px 10px 5px auto;
+    right: 0;
+    flex-direction: column;
+}
+.contract-line {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.city {
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #979799;
+    text-align: right;
+}
+.phone-number {
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-align: left;
+}

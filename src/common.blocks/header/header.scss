@@ -1,0 +1,61 @@
+.mobile-only {
+    display: none;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    background-color: #323233;
+}
+
+.logo {
+    width: 77px;
+    height: 39.06px;
+    margin: 10px 0 0 36.5px;
+}
+
+.navigation-link {
+    width: 61px;
+    height: 50px;
+    margin-top: 10px;
+
+    font-family: Ghotam Pro;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 50px;
+    text-align: center;
+    text-decoration : none;
+    color: #FFFFFF;
+}
+.links-wrapper {
+    margin: 0 auto 0 auto;
+    gap: 33px;
+}
+.contacts-wrapper {
+    width: 320px;
+    height: 40px;
+    margin: 10px 36.5px 0 0;
+    right: 0;
+    flex-direction: column;
+}
+.contract-line {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.city {
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #979799;
+    text-align: right;
+}
+.phone-number {
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: left;
+}
